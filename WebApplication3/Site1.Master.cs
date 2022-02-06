@@ -28,6 +28,7 @@ namespace WebApplication3
                     LinkButton8.Visible = false; // book inventory link button
                     LinkButton9.Visible = false; // book issuing link button
                     LinkButton10.Visible = false; // member management link button
+                    LinkButton13.Visible = false;
                 }
                 else if (Session["role"].Equals("user"))
                 {
@@ -45,6 +46,7 @@ namespace WebApplication3
                     LinkButton8.Visible = false; // book inventory link button
                     LinkButton9.Visible = false; // book issuing link button
                     LinkButton10.Visible = false; // member management link button
+                    LinkButton13.Visible = false;
 
                 }
 
@@ -66,6 +68,7 @@ namespace WebApplication3
                     LinkButton8.Visible = true; // book inventory link button
                     LinkButton9.Visible = true; // book issuing link button
                     LinkButton10.Visible = true; // member management link button
+                    LinkButton13.Visible = true;
                 }
             }
             catch (Exception ex)
@@ -140,6 +143,7 @@ namespace WebApplication3
             LinkButton8.Visible = false; // book inventory link button
             LinkButton9.Visible = false; // book issuing link button
             LinkButton10.Visible = false; // member management link button
+            LinkButton13.Visible = false; 
 
             Response.Redirect("homepage.aspx");
         }
@@ -153,6 +157,11 @@ namespace WebApplication3
         protected void LinkButton5_Click(object sender, EventArgs e)
         {
             Response.Redirect("homepage.aspx");
+        }
+
+        protected void LinkButton13_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("adminbookissuing.aspx");
         }
     }
 }
