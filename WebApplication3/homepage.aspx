@@ -19,42 +19,6 @@
                 text-transform: uppercase;
                 text-shadow: 2px 2px 5px #4969e1;
             }
-
-        .flip-card {
-            background-color: transparent;
-            width: 100%;
-            height: 100%;
-        }
-
-        .flip-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-        }
-
-        .flip-card:hover .flip-card-inner {
-            transform: rotateY(180deg);
-        }
-
-        .flip-card-front, .flip-card-back {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-        }
-
-        .flip-card-front {
-        }
-
-        .flip-card-back {
-            transform: rotateY(180deg);
-            width: 100%;
-            height: 100%;
-        }
     </style>
 
     <section>
@@ -98,138 +62,71 @@
 
             <div class="row">
                 <div class="card-deck">
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="card text-center" style="width: 25rem;">
-                                        <center>
-                                            <img class="card-img-top" src="icons/books-bookshelves-gr.png" alt="Card image cap"></center>
-                                        <center>
-                                            <hr style="height: 3px; width: 300px; color: midnightblue;">
-                                        </center>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Digital Inventory</h5>
-                                            <p class="card-text">Check which books are available in library.</p>
-                                        </div>
 
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="card text-center" style="width: 25rem;">
-                                        <center>
-                                            <div class="card-body">
-                                                <h5 class="card-title">
-                                                    <br>
-                                                    <br>
-                                                    Digital Inventory</h5>
-                                                <center>
-                                                    <hr style="height: 3px; width: 300px; color: midnightblue;">
-                                                </center>
-                                                <p class="card-text">
-                                                    We provide Digital Inventory feature.
-                                                    <br>
-                                                    So that It become easy for you to see all the books available in Library.
-                                                    <br>
-                                                    Using this feature, it becomes easy to choose your desired book.
-                                                    <br>
-                                                    <br>
-                                                    <br>
-                                                </p>
-                                            </div>
-                                        </center>
-                                    </div>
-                                </div>
+                    <div class="col-md-4">
+
+                        <div class="card text-center" style="width: 25rem;">
+                            <center>
+                                <img class="card-img-top" src="icons/books-bookshelves-gr.png" alt="Card image cap"></center>
+                            <center>
+                                <hr style="height: 3px; width: 300px; color: midnightblue;">
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title">Digital Inventory</h5>
+                                <p class="card-text">Check which books are available in library.</p>
+                            </div>
+                            <center><a href="#demo" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <div id="demo" class="collapse">
+                                <br>
+                                We provide Digital Inventory feature.
+                                    <br>
+                                So that It become easy for you to see all the books available in Library.
+                                    <br>
+                                Using this feature, it becomes easy to choose your desired book.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center" style="width: 25rem;">
+                            <center>
+                                <img class="card-img-top" src="icons/search-gr.png" alt="Card image cap"></center>
+                            <center>
+                                <hr style="height: 3px; width: 300px; color: midnightblue;">
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title">Search Books</h5>
+                                <p class="card-text">Search your favorite books.</p>
+                            </div>
+                            <center><a href="#demo1" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <div id="demo1" class="collapse">
+                                <br />
+                                Search Books feature provides readers to search their favourite book.
+                                    <br>
+                                Readers can search books by Name, Author, Publisher, Genre, Language etc.
+                                    <br>
+                                So, It's becomes easy for readers to find books.<br>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="card text-center" style="width: 25rem;">
-                                        <center>
-                                            <img class="card-img-top" src="icons/search-gr.png" alt="Card image cap"></center>
-                                        <center>
-                                            <hr style="height: 3px; width: 300px; color: midnightblue;">
-                                        </center>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Search Books</h5>
-                                            <p class="card-text">Search your favourite book and check availabilty.</p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="card text-center" style="width: 25rem;">
-                                        <center>
-                                            <div class="card-body">
-                                                <h5 class="card-title">
-                                                    <br>
-                                                    <br>
-                                                    Search Books</h5>
-                                                <center>
-                                                    <hr style="height: 3px; width: 300px; color: midnightblue;">
-                                                </center>
-                                                <p class="card-text">
-                                                    Search Books feature provides readers to search their favourite book.
-                                                    <br>
-                                                    Readers can search books by Name, Author, Publisher, Genre, Language etc.
-                                                    <br>
-                                                    So, It's becomes easy for readers to find books.<br>
-                                                    <br>
-                                                    <br>
-                                                </p>
-                                            </div>
-                                        </center>
-                                    </div>
-                                </div>
+                        <div class="card text-center" style="width: 25rem;">
+                            <center>
+                                <img class="card-img-top" src="icons/warning-gr.png" alt="Card image cap"></center>
+                            <center>
+                                <hr style="height: 3px; width: 300px; color: midnightblue;">
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title">Defaulter's List</h5>
+                                <p class="card-text">Check who haven't returned books yet.</p>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="card text-center" style="width: 25rem;">
-                                        <center>
-                                            <img class="card-img-top" src="icons/search-gr.png" alt="Card image cap"></center>
-                                        <center>
-                                            <hr style="height: 3px; width: 300px; color: midnightblue;">
-                                        </center>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Search Books</h5>
-                                            <p class="card-text">Search your favourite book and check availabilty.</p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="card text-center" style="width: 25rem;">
-                                        <center>
-                                            <div class="card-body">
-                                                <h5 class="card-title">
-                                                    <br>
-                                                    <br>
-                                                    Search Books</h5>
-                                                <center>
-                                                    <hr style="height: 3px; width: 300px; color: midnightblue;">
-                                                </center>
-                                                <p class="card-text">
-                                                    Search Books feature provides readers to search their favourite book.
-                                                    <br>
-                                                    Readers can search books by Name, Author, Publisher, Genre, Language etc.
-                                                    <br>
-                                                    So, It's becomes easy for readers to find books.<br>
-                                                    <br>
-                                                    <br>
-                                                </p>
-                                            </div>
-                                        </center>
-                                    </div>
-                                </div>
+                            <center><a href="#demo2" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <div id="demo2" class="collapse">
+                                <br>
+                                Defaulters are those who haven't returned the book intime.
+                                <br>
+                                This management system provides this facility to check that list.
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -278,6 +175,13 @@
                                 <h5 class="card-title">Sign Up</h5>
                                 <p class="card-text">Complete the sign up process.</p>
                             </div>
+                            <center><a href="#demo3" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <div id="demo3" class="collapse">
+                                <br>
+                                Readers must sign up in order to get books.
+                                <br>
+                                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Sign Up Now!</asp:LinkButton>
+                            </div>
                         </div>
 
                     </div>
@@ -292,6 +196,13 @@
                                 <h5 class="card-title">Search Books</h5>
                                 <p class="card-text">Search your favorite books.</p>
                             </div>
+                            <center><a href="#demo4" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <div id="demo4" class="collapse">
+                                <br>
+                                Readers can search their favorite books by Book Name, Author & Publisher etc.
+                                <br>
+                                <asp:LinkButton ID="LinkButton2"  runat="server" OnClick="LinkButton2_Click">Search Book</asp:LinkButton>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -304,6 +215,19 @@
                             <div class="card-body">
                                 <h5 class="card-title">Visit Us</h5>
                                 <p class="card-text">Visit us and collect your book.</p>
+                            </div>
+                            <center><a href="#demo5" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <div id="demo5" class="collapse">
+                                <br>
+                                - Address -
+                                <br>
+                                <b>Vivekananda Book World</b>
+                                <br>
+                                Shri Ramkrishna Ashram, Dr. Yagnik Road,
+                                <br>
+                                Jagnath Plot, Rajkot - 360001
+                                <br>
+                                <asp:HyperLink ID="HyperLink1" runat="server" Target="_blank" NavigateUrl="https://goo.gl/maps/k4DC6t2dbTBxKWJ9A">Visit Us</asp:HyperLink>
                             </div>
                         </div>
                     </div>
