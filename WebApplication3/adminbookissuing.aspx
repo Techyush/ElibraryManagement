@@ -33,18 +33,30 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <label>Member ID</label>&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="RequiredFieldValidator" Display="Static" Font-Bold="true" ForeColor="Red" ValidationGroup="Issue">*</asp:RequiredFieldValidator>
                                 <div class="form-group">
                                     <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Member ID"></asp:TextBox>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <label>Book ID</label>&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox1" ErrorMessage="RequiredFieldValidator" Display="Static" Font-Bold="true" ForeColor="Red" ValidationGroup="Issue">*</asp:RequiredFieldValidator>
                                 <div class="input-group">
                                     <asp:TextBox class="form-control mr-1" ID="TextBox1" runat="server" placeholder="Book ID"></asp:TextBox>
                                     <asp:LinkButton class="btn btn-primary" ID="LinkButton1" runat="server" Text="Go" OnClick="Button1_Click"><i class="fas fa-lg fa-angle-right"></i></asp:LinkButton>
                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Account Status</label>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <asp:TextBox CssClass="form-control mr-1" ID="TextBox7" runat="server" placeholder="Status" ReadOnly="True"></asp:TextBox>
+                                        <asp:LinkButton class="btn btn-success mr-1" ID="LinkButton2" runat="server" ValidationGroup="Member" ToolTip="Active" OnClick="LinkButton2_Click"><i class="fas fa-check-circle"></i></asp:LinkButton>
+                                        <asp:LinkButton class="btn btn-warning mr-1" ID="LinkButton3" runat="server" ValidationGroup="Member" ToolTip="Pending" OnClick="LinkButton3_Click"><i class="far fa-pause-circle"></i></asp:LinkButton>
+                                        <asp:LinkButton class="btn btn-danger mr-1" ID="LinkButton4" runat="server" ValidationGroup="Member" ToolTip="Deactivate" OnClick="LinkButton4_Click"><i class="fas fa-times-circle"></i></asp:LinkButton>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                         <div class="row">
