@@ -115,7 +115,6 @@ namespace WebApplication3
 
                 if (result > 0)
                 {
-
                     cmd = new SqlCommand("update book_master_tbl set current_stock = current_stock+1 WHERE book_id='" + TextBox1.Text.Trim() + "'", con);
                     cmd.ExecuteNonQuery();
                     con.Close();
@@ -123,9 +122,7 @@ namespace WebApplication3
                     Label1.ForeColor = System.Drawing.Color.Green;
                     Label1.Text = "Book Returned Successfully!";
                     GridView1.DataBind();
-
                     con.Close();
-
                 }
                 else
                 {
