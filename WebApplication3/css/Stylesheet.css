@@ -1,6 +1,6 @@
-﻿.footerlinks{
+﻿.footerlinks {
     color: #ffffff;
-    text-decoration : none;
+    text-decoration: none;
 }
 
     .footerlinks:hover {
@@ -9,20 +9,45 @@
         text-underline-position: under;
     }
 
-#footer1{
-    background:#1261A0;
+#footer1 {
+    background: #1261A0;
 }
 
-#footer2{
+#footer2 {
     background: #072f5f;
 }
+
+.form-control {
+    border-radius: 25px;
+    border-color: #58cced;
+}
+
+
+.form-select {
+    border-radius: 25px;
+    border-color: #58cced;
+}
+
 
 .btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn-light {
     border-radius: 25px;
 }
 
+.btn-cool-blues {
+    background: linear-gradient(45deg, #ABDCFF, #0396FF);
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.btn-info-blue {
+    background: #89f7fe;
+    border-radius: 25px;
+    text-decoration-color: #ffffff;
+    height:45px;
+}
+
 h1 {
-    text-shadow: 2px 2px 5px #808080;
+    text-shadow: 2px 2px 5px #4969e1;
 }
 
 .card-img-top {
@@ -33,7 +58,7 @@ h1 {
 }
 
 body {
-    background: linear-gradient(-45deg, #a2e2e8, #52a8ee, #3c53e7, #23a6d5, #6379c9);
+    background: linear-gradient(-45deg, #a2e2e8, #52a8ee, #3c53e7, #23a6d5, #6379c9, #ffffff);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
@@ -59,6 +84,10 @@ body {
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     align-content: center;
 }
+
+    .card:hover {
+        box-shadow: 0 5px 50px rgba(5,5,5,.2);
+    }
 
 nav .navbar-nav li a{
     color: white !important;

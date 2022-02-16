@@ -75,7 +75,7 @@
                                 <h5 class="card-title">Digital Inventory</h5>
                                 <p class="card-text">Check which books are available in library.</p>
                             </div>
-                            <center><a href="#demo" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <center><a href="#demo" class="btn btn-cool-blues" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
                             <div id="demo" class="collapse">
                                 <br>
                                 We provide Digital Inventory feature.
@@ -98,7 +98,7 @@
                                 <h5 class="card-title">Search Books</h5>
                                 <p class="card-text">Search your favorite books.</p>
                             </div>
-                            <center><a href="#demo1" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <center><a href="#demo1" class="btn btn-cool-blues" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
                             <div id="demo1" class="collapse">
                                 <br />
                                 Search Books feature provides readers to search their favourite book.
@@ -120,7 +120,7 @@
                                 <h5 class="card-title">Defaulter's List</h5>
                                 <p class="card-text">Check who haven't returned books yet.</p>
                             </div>
-                            <center><a href="#demo2" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <center><a href="#demo2" class="btn btn-cool-blues" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
                             <div id="demo2" class="collapse">
                                 <br>
                                 Defaulters are those who haven't returned the book intime.
@@ -175,7 +175,7 @@
                                 <h5 class="card-title">Sign Up</h5>
                                 <p class="card-text">Complete the sign up process.</p>
                             </div>
-                            <center><a href="#demo3" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <center><a href="#demo3" class="btn btn-cool-blues" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
                             <div id="demo3" class="collapse">
                                 <br>
                                 Readers must sign up in order to get books.
@@ -196,7 +196,7 @@
                                 <h5 class="card-title">Search Books</h5>
                                 <p class="card-text">Search your favorite books.</p>
                             </div>
-                            <center><a href="#demo4" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <center><a href="#demo4" class="btn btn-cool-blues" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
                             <div id="demo4" class="collapse">
                                 <br>
                                 Readers can search their favorite books by Book Name, Author & Publisher etc.
@@ -216,7 +216,7 @@
                                 <h5 class="card-title">Visit Us</h5>
                                 <p class="card-text">Visit us and collect your book.</p>
                             </div>
-                            <center><a href="#demo5" class="btn btn-primary" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
+                            <center><a href="#demo5" class="btn btn-cool-blues" data-toggle="collapse" style="width: fit-content;">Know more</a></center>
                             <div id="demo5" class="collapse">
                                 <br>
                                 - Address -

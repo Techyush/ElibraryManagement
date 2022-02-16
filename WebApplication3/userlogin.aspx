@@ -14,7 +14,7 @@
                         <div class="row">
                                 <div class="col">
                                     <center>
-                                        <img width="150px" src="imgs/generaluser.png"/>
+                                        <img width="150" src="imgs/generaluser.png"/>
                                     </center>
                                 </div>
                         </div>
@@ -55,7 +55,19 @@
                                     <div class="form-group">
                                          <a href="usersignup.aspx"><input class="btn btn-info btn-block btn-lg" id="Button2" type="button" value="Sign Up" /></a>
                                     </div>
+                                    <div class="row">
+                                    <div class="col-md-12">
 
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="btn-group btn-block">
+                                                    <asp:Button ID="Button3" class="btn btn-info-blue mr-1" runat="server" Text="Home" autopostback="false" OnClick="Button3_Click"/>
+                                                    <asp:Button ID="Button4" class="btn btn-info-blue" runat="server" Text="Clear" autopostback="false" OnClick="Button4_Click"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 </div>
                         </div>
 
@@ -63,8 +75,7 @@
                     </div>
                 </div>
                 <br>
-                <asp:Button ID="Button3" class="btn btn-light" runat="server" Text="Home" autopostback="false" OnClick="Button3_Click"/>
-                <asp:Button ID="Button4" class="btn btn-light" runat="server" Text="Clear" autopostback="false" OnClick="Button4_Click"/>
+                
                 <br><br><br><br><br><br><br><br>
             </div>
             
