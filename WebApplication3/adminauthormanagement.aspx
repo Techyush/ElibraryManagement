@@ -77,9 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <br>
-                <asp:Button ID="Button5" class="btn btn-light btn-square-md" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click" />
-                <br>
+                
             </div>
 
             <div class="col-md-7">

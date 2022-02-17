@@ -56,7 +56,7 @@
                                         <asp:LinkButton class="btn btn-danger mr-1" ID="LinkButton4" runat="server" ValidationGroup="Member" ToolTip="Deactivate" OnClick="LinkButton4_Click"><i class="fas fa-times-circle"></i></asp:LinkButton>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class="row">
@@ -93,17 +93,29 @@
                         <br />
                         <div class="row">
                             <div class="col-6">
-                                <asp:Button ID="Button2" class="btn btn-lg btn-block btn-primary" runat="server" Text="Issue" OnClick="Button2_Click" ValidationGroup="Issue"/>
+                                <asp:Button ID="Button2" class="btn btn-lg btn-block btn-primary" runat="server" Text="Issue" OnClick="Button2_Click" ValidationGroup="Issue" />
                             </div>
                             <div class="col-6">
                                 <asp:Button ID="Button4" class="btn btn-lg btn-block btn-success" runat="server" Text="Return" OnClick="Button4_Click" />
                             </div>
                         </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="btn-group btn-block">
+                                            <asp:Button ID="Button5" class="btn btn-info-blue btn-square-md mr-1" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click" />
+                                            <asp:Button ID="Button6" class="btn btn-info-blue btn-square-md" runat="server" Text="Clear" autopostback="false" OnClick="Button6_Click" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <br>
-                <asp:Button ID="Button5" class="btn btn-light btn-square-md" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click"/>
-                <asp:Button ID="Button6" class="btn btn-light btn-square-md" runat="server" Text="Clear" autopostback="false" OnClick="Button6_Click"/>
+
                 <br>
             </div>
             <div class="col-md-7">

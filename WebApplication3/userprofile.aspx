@@ -154,21 +154,29 @@
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-8 mx-auto">
+                            <div class="col-12 mx-auto">
                                 <center>
                                     <div class="form-group">
-                                        <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" OnClick="Button1_Click" ValidationGroup="Profile"/>
+                                        <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" OnClick="Button1_Click" ValidationGroup="Profile" />
                                     </div>
                                 </center>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="btn-group btn-block">
+                                            <asp:Button ID="Button5" class="btn btn-info-blue btn-square-md mr-1 btn-lg" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click" />
+                                            <asp:Button ID="Button6" class="btn btn-info-blue btn-square-md btn-lg" runat="server" Text="Clear" autopostback="false" OnClick="Button6_Click" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-               <br>
-                <asp:Button ID="Button5" class="btn btn-light btn-square-md" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click"/>
-                <asp:Button ID="Button6" class="btn btn-light btn-square-md" runat="server" Text="Clear" autopostback="false" OnClick="Button6_Click"/>
-                <br>
-                <br>
+
             </div>
             <div class="col-md-7">
                 <div class="card">
@@ -201,5 +209,9 @@
                 </div>
             </div>
         </div>
+        <br>
+
+        <br>
+        <br>
     </div>
 </asp:Content>

@@ -19,6 +19,19 @@
                 text-transform: uppercase;
                 text-shadow: 2px 2px 5px #4969e1;
             }
+
+        .card {
+            padding: 1.5em .5em .5em;
+            border-radius: 2em;
+            box-shadow: 0 5px 10px rgba(0,0,0,.2);
+            align-content: center;
+            transition: all .2s ease-in-out;
+        }
+
+            .card:hover {
+                box-shadow: 0 5px 25px rgb(0 0 0 / 0.10);
+                transform: scale(1.05);
+            }
     </style>
 
     <section>
@@ -201,7 +214,7 @@
                                 <br>
                                 Readers can search their favorite books by Book Name, Author & Publisher etc.
                                 <br>
-                                <asp:LinkButton ID="LinkButton2"  runat="server" OnClick="LinkButton2_Click">Search Book</asp:LinkButton>
+                                <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Search Book</asp:LinkButton>
                             </div>
                         </div>
                     </div>

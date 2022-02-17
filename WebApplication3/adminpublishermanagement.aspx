@@ -72,16 +72,9 @@
                             <div class="col-4">
                                 <asp:Button ID="Button4" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete" OnClick="Button4_Click" />
                             </div>
-
                         </div>
-
                     </div>
                 </div>
-
-                <br>
-                <asp:Button ID="Button5" class="btn btn-light btn-square-md" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click" />
-                <br>
-                <br>
             </div>
 
             <div class="col-md-7">

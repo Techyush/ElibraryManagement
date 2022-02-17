@@ -14,7 +14,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <img width="100px" src="imgs/generaluser.png" />
+                                    <img width="100" src="imgs/generaluser.png" />
                                 </center>
                             </div>
                         </div>
@@ -180,8 +180,8 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="btn-group btn-block">
-                                            <asp:Button ID="Button3" class="btn btn-info-blue mr-1" runat="server" Text="Home" autopostback="false" OnClick="Button3_Click" />
-                                            <asp:Button ID="Button4" class="btn btn-info-blue" runat="server" Text="Clear" autopostback="false" OnClick="Button4_Click" />
+                                            <asp:Button ID="Button3" class="btn btn-info-blue mr-1 btn-lg" runat="server" Text="Home" autopostback="false" OnClick="Button3_Click" />
+                                            <asp:Button ID="Button4" class="btn btn-info-blue btn-lg" runat="server" Text="Clear" autopostback="false" OnClick="Button4_Click" />
                                         </div>
                                     </div>
                                 </div>

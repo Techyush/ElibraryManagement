@@ -86,7 +86,7 @@ body {
 }
 
     .card:hover {
-        box-shadow: 0 5px 50px rgba(5,5,5,.2);
+        box-shadow: 0 5px 25px rgba(255,255,255,1);
     }
 
 nav .navbar-nav li a{

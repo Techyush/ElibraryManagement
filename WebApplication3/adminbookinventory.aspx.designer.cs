@@ -294,22 +294,22 @@ namespace WebApplication3
         protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// Button5 control.
+        /// Button4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button5;
+        protected global::System.Web.UI.WebControls.Button Button4;
 
         /// <summary>
-        /// Button6 control.
+        /// Button7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button6;
+        protected global::System.Web.UI.WebControls.Button Button7;
 
         /// <summary>
         /// SqlDataSource1 control.

@@ -113,15 +113,27 @@
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-8 mx-auto">
+                            <div class="col-12 mx-auto">
                                 <asp:Button ID="Button2" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete User Permanently" OnClick="Button2_Click" ValidationGroup="Member" />
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="btn-group btn-block">
+                                            <asp:Button ID="Button5" class="btn btn-info-blue btn-square-md mr-1 btn-lg" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click" />
+                                            <asp:Button ID="Button6" class="btn btn-info-blue btn-square-md btn-lg" runat="server" Text="Clear" autopostback="false" OnClick="Button6_Click" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br>
-                <asp:Button ID="Button5" class="btn btn-light btn-square-md" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click"/>
-                <asp:Button ID="Button6" class="btn btn-light btn-square-md" runat="server" Text="Clear" autopostback="false" OnClick="Button6_Click"/>
+
                 <br>
                 <br>
                 <br>

@@ -57,7 +57,7 @@
                                 &nbsp;<div class="form-group">
                                     <div class="input-group">
                                         <asp:TextBox CssClass="form-control mr-1" ID="TextBox1" runat="server" placeholder="Book ID"></asp:TextBox>
-                                        <asp:LinkButton ID="LinkButton4" class="btn btn-primary" runat="server" OnClick="LinkButton4_Click" ><i class="fas fa-search"></i></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton4" class="btn btn-primary" runat="server" OnClick="LinkButton4_Click"><i class="fas fa-search"></i></asp:LinkButton>
                                     </div>
                                 </div>
                             </div>
@@ -84,10 +84,10 @@
                                 <label>Publisher Name</label>
                                 <div class="form-group">
                                     <div class="input-group">
-                                    <asp:DropDownList class="form-select mr-1" ID="DropDownList2" runat="server">
-                                        <asp:ListItem Text="Publisher 1" Value="Publisher 1" />
-                                        <asp:ListItem Text="Publisher 2" Value="Publisher 2" />
-                                    </asp:DropDownList>
+                                        <asp:DropDownList class="form-select mr-1" ID="DropDownList2" runat="server">
+                                            <asp:ListItem Text="Publisher 1" Value="Publisher 1" />
+                                            <asp:ListItem Text="Publisher 2" Value="Publisher 2" />
+                                        </asp:DropDownList>
                                         <asp:LinkButton ID="LinkButton1" class="btn btn-primary" runat="server" OnClick="LinkButton1_Click"><i class="fas fa-plus"></i></asp:LinkButton>
                                     </div>
                                 </div>
@@ -96,11 +96,11 @@
                                 <label>Author Name</label>
                                 <div class="form-group">
                                     <div class="input-group">
-                                    <asp:DropDownList class="form-select mr-1" ID="DropDownList3" runat="server">
-                                        <asp:ListItem Text="A1" Value="a1" />
-                                        <asp:ListItem Text="a2" Value="a2" />
-                                    </asp:DropDownList>
-                                    <asp:LinkButton ID="LinkButton2" class="btn btn-primary" runat="server" OnClick="LinkButton2_Click"><i class="fas fa-plus"></i></asp:LinkButton>
+                                        <asp:DropDownList class="form-select mr-1" ID="DropDownList3" runat="server">
+                                            <asp:ListItem Text="A1" Value="a1" />
+                                            <asp:ListItem Text="a2" Value="a2" />
+                                        </asp:DropDownList>
+                                        <asp:LinkButton ID="LinkButton2" class="btn btn-primary" runat="server" OnClick="LinkButton2_Click"><i class="fas fa-plus"></i></asp:LinkButton>
                                     </div>
                                 </div>
                                 <label>Publish Date</label>&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox3" ErrorMessage="RequiredFieldValidator" Display="Static" Font-Bold="true" ForeColor="Red" ValidationGroup="Inv">*</asp:RequiredFieldValidator>
@@ -205,13 +205,21 @@
                                 <asp:Button ID="Button2" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete" OnClick="Button2_Click" />
                             </div>
                         </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="btn-group btn-block">
+                                            <asp:Button ID="Button4" class="btn btn-info-blue btn-square-md mr-1 btn-lg" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click" />
+                                            <asp:Button ID="Button7" class="btn btn-info-blue btn-square-md btn-lg" runat="server" Text="Clear" autopostback="false" OnClick="Button6_Click" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <br>
-                <asp:Button ID="Button5" class="btn btn-light btn-square-md" runat="server" Text="Home" autopostback="false" OnClick="Button5_Click"/>
-                <asp:Button ID="Button6" class="btn btn-light btn-square-md" runat="server" Text="Clear" autopostback="false" OnClick="Button6_Click"/>
-                <br>
-                <br>
             </div>
             <div class="col-md-7">
                 <div class="card">
@@ -303,5 +311,6 @@
                 </div>
             </div>
         </div>
+        <br>
     </div>
 </asp:Content>
