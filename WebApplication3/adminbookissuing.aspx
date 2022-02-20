@@ -43,7 +43,7 @@
                                 <label>Book ID</label>&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox1" ErrorMessage="RequiredFieldValidator" Display="Static" Font-Bold="true" ForeColor="Red" ValidationGroup="Issue">*</asp:RequiredFieldValidator>
                                 <div class="input-group">
                                     <asp:TextBox class="form-control mr-1" ID="TextBox1" runat="server" placeholder="Book ID"></asp:TextBox>
-                                    <asp:LinkButton class="btn btn-primary" ID="LinkButton1" runat="server" Text="Go" OnClick="Button1_Click"><i class="fas fa-lg fa-angle-right"></i></asp:LinkButton>
+                                    <asp:LinkButton class="btn btn-primary-sld" ID="LinkButton1" runat="server" Text="Go" OnClick="Button1_Click"><i class="fas fa-lg fa-angle-right"></i></asp:LinkButton>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -51,9 +51,9 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <asp:TextBox CssClass="form-control mr-1" ID="TextBox7" runat="server" placeholder="Status" ReadOnly="True"></asp:TextBox>
-                                        <asp:LinkButton class="btn btn-success mr-1" ID="LinkButton2" runat="server" ValidationGroup="Member" ToolTip="Active" OnClick="LinkButton2_Click"><i class="fas fa-check-circle"></i></asp:LinkButton>
-                                        <asp:LinkButton class="btn btn-warning mr-1" ID="LinkButton3" runat="server" ValidationGroup="Member" ToolTip="Pending" OnClick="LinkButton3_Click"><i class="far fa-pause-circle"></i></asp:LinkButton>
-                                        <asp:LinkButton class="btn btn-danger mr-1" ID="LinkButton4" runat="server" ValidationGroup="Member" ToolTip="Deactivate" OnClick="LinkButton4_Click"><i class="fas fa-times-circle"></i></asp:LinkButton>
+                                        <asp:LinkButton class="btn btn-success-sld mr-1" ID="LinkButton2" runat="server" ValidationGroup="Member" ToolTip="Active" OnClick="LinkButton2_Click"><i class="fas fa-check-circle"></i></asp:LinkButton>
+                                        <asp:LinkButton class="btn btn-warning-sld mr-1" ID="LinkButton3" runat="server" ValidationGroup="Member" ToolTip="Pending" OnClick="LinkButton3_Click"><i class="far fa-pause-circle"></i></asp:LinkButton>
+                                        <asp:LinkButton class="btn btn-danger-sld mr-1" ID="LinkButton4" runat="server" ValidationGroup="Member" ToolTip="Deactivate" OnClick="LinkButton4_Click"><i class="fas fa-times-circle"></i></asp:LinkButton>
                                     </div>
                                 </div>
 
@@ -153,11 +153,4 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 </asp:Content>

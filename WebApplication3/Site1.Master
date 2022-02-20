@@ -5,9 +5,9 @@
 <html>
 <head runat="server">
     <title></title>
-    
-<link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
-    
+
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -17,19 +17,31 @@
     <script src="bootstrap/js/popper.min.js"></script>
     <link href="bootstrap/js/bootstrap.min.css" rel="stylesheet" />
     <script src="datatables/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(window).bind("load", function () {
+            var footer = $("#footer1");
+            var pos = footer.position();
+            var height = $(window).height();
+            height = height - pos.top;
+            height = height - footer.height();
+            if (height > 0) {
+                footer.css({
+                    'margin-top': height + 'px'
+                });
+            }
+        });
+    </script>
 
-    
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="fontawesome/css/all.css" rel="stylesheet" />
     <link href="css/Stylesheet.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
-
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-        
+
         <div>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">
@@ -41,7 +53,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                     </ul>
 
@@ -52,7 +64,7 @@
                         <li class="nav-item active">
                             <asp:LinkButton class="nav-link" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">View Books</asp:LinkButton>
                         </li>
-                        
+
                         <li class="nav-item active">
                             <asp:LinkButton class="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">User Login</asp:LinkButton>
                         </li>
@@ -74,44 +86,40 @@
             </nav>
         </div>
 
-    <div>
+        <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
             </asp:ContentPlaceHolder>
         </div>
 
-        <footer>
+        <footer class="page-footer pt-4">
             <div id="footer1" class="container-fluid">
+
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <div class="col-xs-7 col-sm-7 col-md-7 text-left">
+                        <br>
                         <p>
-                            <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">Admin Login</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">&bull; Admin Login</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server" OnClick="LinkButton11_Click" Visible="False">Author Management</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server" OnClick="LinkButton11_Click" Visible="False">&bull; Author Management</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server" OnClick="LinkButton12_Click" Visible="False">Publisher Management</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server" OnClick="LinkButton12_Click" Visible="False">&bull; Publisher Management</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server" OnClick="LinkButton8_Click" Visible="False">Book Inventory</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server" OnClick="LinkButton8_Click" Visible="False">&bull; Book Inventory</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click" Visible="False">Book Issuing</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click" Visible="False">&bull; Book Issuing</asp:LinkButton>
                             &nbsp;
-                             <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server" OnClick="LinkButton10_Click" Visible="False">Member Management</asp:LinkButton>
+                             <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server" OnClick="LinkButton10_Click" Visible="False">&bull; Member Management</asp:LinkButton>
                         </p>
-
                     </div>
-
-                </div>
-            </div>
-            <div id="footer2" class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                        <p style="color:whitesmoke">&copy All right Reversed. <a class="footerlinks" href="homepage.aspx">E-Library Management</a></p>
+                    <div class="col-xs-5 col-sm-5 col-md-5 text-right">
+                        <br>
+                        <p style="color: whitesmoke">&copy All right Reversed. <a class="footerlinks" href="homepage.aspx">E-Library Management</a></p>
                     </div>
                 </div>
             </div>
 
         </footer>
-        
+
 
     </form>
 </body>

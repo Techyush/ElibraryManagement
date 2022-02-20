@@ -57,7 +57,11 @@
                                 &nbsp;<div class="form-group">
                                     <div class="input-group">
                                         <asp:TextBox CssClass="form-control mr-1" ID="TextBox1" runat="server" placeholder="Book ID"></asp:TextBox>
+<<<<<<< HEAD
+                                        <asp:LinkButton ID="LinkButton4" class="btn btn-primary-sld" runat="server" OnClick="LinkButton4_Click"><i class="fas fa-search"></i></asp:LinkButton>
+=======
                                         <asp:LinkButton ID="LinkButton4" class="btn btn-primary" runat="server" OnClick="LinkButton4_Click"><i class="fas fa-search"></i></asp:LinkButton>
+>>>>>>> 94027290195f84a3c4f355495489144b860b94c7
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +92,11 @@
                                             <asp:ListItem Text="Publisher 1" Value="Publisher 1" />
                                             <asp:ListItem Text="Publisher 2" Value="Publisher 2" />
                                         </asp:DropDownList>
+<<<<<<< HEAD
+                                        <asp:LinkButton ID="LinkButton1" class="btn btn-primary-sld" runat="server" OnClick="LinkButton1_Click"><i class="fas fa-plus"></i></asp:LinkButton>
+=======
                                         <asp:LinkButton ID="LinkButton1" class="btn btn-primary" runat="server" OnClick="LinkButton1_Click"><i class="fas fa-plus"></i></asp:LinkButton>
+>>>>>>> 94027290195f84a3c4f355495489144b860b94c7
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +108,11 @@
                                             <asp:ListItem Text="A1" Value="a1" />
                                             <asp:ListItem Text="a2" Value="a2" />
                                         </asp:DropDownList>
+<<<<<<< HEAD
+                                        <asp:LinkButton ID="LinkButton2" class="btn btn-primary-sld" runat="server" OnClick="LinkButton2_Click"><i class="fas fa-plus"></i></asp:LinkButton>
+=======
                                         <asp:LinkButton ID="LinkButton2" class="btn btn-primary" runat="server" OnClick="LinkButton2_Click"><i class="fas fa-plus"></i></asp:LinkButton>
+>>>>>>> 94027290195f84a3c4f355495489144b860b94c7
                                     </div>
                                 </div>
                                 <label>Publish Date</label>&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox3" ErrorMessage="RequiredFieldValidator" Display="Static" Font-Bold="true" ForeColor="Red" ValidationGroup="Inv">*</asp:RequiredFieldValidator>
@@ -311,6 +323,10 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
+        
+=======
         <br>
+>>>>>>> 94027290195f84a3c4f355495489144b860b94c7
     </div>
 </asp:Content>

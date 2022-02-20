@@ -38,7 +38,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <asp:TextBox CssClass="form-control mr-1" ID="TextBox1" runat="server" placeholder="Member ID"></asp:TextBox>
-                                        <asp:LinkButton class="btn btn-primary" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" ValidationGroup="Member"><i class="fas fa-check-circle"></i></asp:LinkButton>
+                                        <asp:LinkButton class="btn btn-primary-sld" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" ValidationGroup="Member"><i class="fas fa-check-circle"></i></asp:LinkButton>
                                     </div>
                                 </div>
                             </div>
@@ -53,9 +53,9 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <asp:TextBox CssClass="form-control mr-1" ID="TextBox7" runat="server" placeholder="Account Status" ReadOnly="True"></asp:TextBox>
-                                        <asp:LinkButton class="btn btn-success mr-1" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ValidationGroup="Member" ToolTip="Active"><i class="fas fa-check-circle"></i></asp:LinkButton>
-                                        <asp:LinkButton class="btn btn-warning mr-1" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" ValidationGroup="Member" ToolTip="Pending"><i class="far fa-pause-circle"></i></asp:LinkButton>
-                                        <asp:LinkButton class="btn btn-danger mr-1" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" ValidationGroup="Member" ToolTip="Deactivate"><i class="fas fa-times-circle"></i></asp:LinkButton>
+                                        <asp:LinkButton class="btn btn-success-sld mr-1" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ValidationGroup="Member" ToolTip="Active"><i class="fas fa-check-circle"></i></asp:LinkButton>
+                                        <asp:LinkButton class="btn btn-warning-sld mr-1" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" ValidationGroup="Member" ToolTip="Pending"><i class="far fa-pause-circle"></i></asp:LinkButton>
+                                        <asp:LinkButton class="btn btn-danger-sld mr-1" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" ValidationGroup="Member" ToolTip="Deactivate"><i class="fas fa-times-circle"></i></asp:LinkButton>
                                     </div>
                                 </div>
                             </div>
@@ -132,11 +132,14 @@
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
+=======
                 <br>
 
                 <br>
                 <br>
                 <br>
+>>>>>>> 94027290195f84a3c4f355495489144b860b94c7
             </div>
             <div class="col-md-7">
                 <div class="card">

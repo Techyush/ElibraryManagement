@@ -1,37 +1,154 @@
-﻿.footerlinks {
+﻿
+
+.footerlinks {
     color: #ffffff;
     text-decoration: none;
 }
 
     .footerlinks:hover {
         color: #ffffff;
-        text-shadow: 0 0 3px #58cced; 
+        text-shadow: 0 0 3px #58cced;
         text-underline-position: under;
     }
 
 #footer1 {
-    background: #1261A0;
+    background: #1565c0;
 }
 
-#footer2 {
-    background: #072f5f;
-}
-
-.form-control {
+.form-control, .form-select {
     border-radius: 25px;
     border-color: #58cced;
 }
 
 
-.form-select {
-    border-radius: 25px;
-    border-color: #58cced;
-}
-
-
-.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn-light {
+.btn-default, .btn-primary, .btn-success, .btn-warning, .btn-info, .btn-danger, .btn-light {
     border-radius: 25px;
 }
+
+.btn-success-sld {
+    color:limegreen;
+    border-color: limegreen;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+    .btn-success-sld:hover {
+        background-color: limegreen;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 0.10);
+        transform: scale(1.05);
+        color: white;
+    }
+
+.btn-warning-sld {
+    color: #ffc107;
+    border-color: #cccc00;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+    .btn-warning-sld:hover {
+        box-shadow: 0 5px 25px rgb(0 0 0 / 0.10);
+        transform: scale(1.05);
+        color: white;
+        background-color: #ffc107;
+    }
+
+.btn-danger-sld {
+    color: red;
+    border-color: orangered;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+    .btn-danger-sld:hover {
+        box-shadow: 0 5px 25px rgb(0 0 0 / 0.10);
+        transform: scale(1.05);
+        color: white;
+        background-color: red;
+    }
+
+.btn-primary-sld {
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+    .btn-primary-sld:hover {
+        box-shadow: 0 5px 25px rgb(0 0 0 / 0.10);
+        transform: scale(1.05);
+        color: white;
+        background-color: cornflowerblue;
+    }
+
+    .btn-danger-sld:hover, .btn-warning-sld:hover, .btn-success-sld:hover, .btn-primary-sld:hover {
+        box-shadow: 0 5px 25px rgb(0 0 0 / 0.10);
+        transform: scale(1.05);
+    }
+
+.btn-danger {
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
+    text-decoration-color: #ffffff;
+    height: 45px;
+    transition: all .2s ease-in-out;
+    flex: 1 1 auto;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+    .btn-danger:hover {
+        background-position: right center;
+        color: white;
+        border-color: transparent;
+        transform: scale(1.05);
+    }
+
+.btn-primary {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    text-decoration-color: #ffffff;
+    height: 45px;
+    transition: all .2s ease-in-out;
+    flex: 1 1 auto;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+    .btn-primary:hover {
+        background-position: right center;
+        color: white;
+        border-color: transparent;
+        transform: scale(1.05);
+    }
+
+.btn-warning {
+    background-image: linear-gradient(to right, #FFD400, #FFDD3C, #FFEA61, #FFD400);
+    text-decoration-color: #ffffff;
+    height: 45px;
+    transition: all .2s ease-in-out;
+    flex: 1 1 auto;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
+    transform: scale(1.05);
+}
+
+    .btn-warning:hover {
+        background-position: right center;
+        color: white;
+        border-color: transparent;
+        transform: scale(1.05);
+    }
 
 .btn-cool-blues {
     background: linear-gradient(45deg, #ABDCFF, #0396FF);
@@ -39,12 +156,72 @@
     color: #ffffff;
 }
 
-.btn-info-blue {
-    background: #89f7fe;
-    border-radius: 25px;
+    .btn-cool-blues:hover {
+        color: white;
+    }
+
+.btn-info {
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
     text-decoration-color: #ffffff;
-    height:45px;
+    height: 45px;
+    transition: all .2s ease-in-out;
+    flex: 1 1 auto;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
 }
+
+    .btn-info:hover {
+        background-position: right center;
+        color: white;
+        border-color: transparent;
+        transform: scale(1.05);
+    }
+
+.btn-success {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    text-decoration-color: #ffffff;
+    height: 45px;
+    transition: all .2s ease-in-out;
+    flex: 1 1 auto;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+    .btn-success:hover {
+        background-position: right center;
+        color: white;
+        border-color: transparent;
+        transform: scale(1.05);
+    }
+
+.btn-info-blue {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    text-decoration-color: #ffffff;
+    height: 45px;
+    transition: all .2s ease-in-out;
+    flex: 1 1 auto;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+    .btn-info-blue:hover {
+        background-position: right center;
+        color: white;
+        transform: scale(1.05);
+    }
 
 h1 {
     text-shadow: 2px 2px 5px #4969e1;
@@ -89,15 +266,14 @@ body {
         box-shadow: 0 5px 25px rgba(255,255,255,1);
     }
 
-nav .navbar-nav li a{
+nav .navbar-nav li a {
     color: white !important;
 }
-    
-    .nav-link:hover{
+
+.nav-link:hover {
     color: #ffffff;
     text-shadow: 0 0 3px #58cced;
     text-underline-position: under;
-    
 }
 
 nav .nav-link {

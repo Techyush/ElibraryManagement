@@ -45,7 +45,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <asp:TextBox CssClass="form-control mr-1" ID="TextBox1" runat="server" placeholder="ID"></asp:TextBox>
-                                        <asp:LinkButton ID="LinkButton4" class="btn btn-primary" runat="server" OnClick="Button1_Click"><i class="fas fa-search"></i></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton4" class="btn btn-primary-sld" runat="server" OnClick="Button1_Click"><i class="fas fa-search"></i></asp:LinkButton>
                                     </div>
                                 </div>
                             </div>
@@ -124,18 +124,4 @@
             <br>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 </asp:Content>

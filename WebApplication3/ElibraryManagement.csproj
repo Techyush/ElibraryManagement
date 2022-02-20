@@ -1747,40 +1747,19 @@
     <Content Include="icons\warning-gr.png" />
     <Content Include="homepage.aspx" />
     <Content Include="imgs\adminuser.png" />
-    <Content Include="imgs\animation_500_kyfjvsye.gif" />
-    <Content Include="imgs\animation_500_kyfkzh7i.gif" />
-    <Content Include="imgs\animation_500_kyfmh5lg.gif" />
-    <Content Include="imgs\animation_500_kyfoe0vu.gif" />
-    <Content Include="imgs\animation_500_kyfp7ybh.gif" />
     <Content Include="imgs\bk_logo.png" />
     <Content Include="imgs\logo.png" />
-    <Content Include="imgs\book-online.png" />
     <Content Include="imgs\books in the library.png" />
     <Content Include="imgs\books.png" />
     <Content Include="imgs\books1.png" />
-    <Content Include="imgs\defaulters-list.png" />
-    <Content Include="imgs\defaulters-lst.png" />
-    <Content Include="imgs\digi-inv.png" />
-    <Content Include="imgs\digital-data.png" />
-    <Content Include="imgs\digital-inventory.png" />
     <Content Include="imgs\generaluser.png" />
-    <Content Include="imgs\home-bg.jpg" />
-    <Content Include="imgs\in-homepage-banner.jpg" />
-    <Content Include="imgs\library1.png" />
     <Content Include="imgs\publisher.png" />
-    <Content Include="imgs\search-bk.png" />
-    <Content Include="imgs\search-online.png" />
-    <Content Include="imgs\sign-up.png" />
-    <Content Include="imgs\search books.png" />
-    <Content Include="imgs\library.png" />
-    <Content Include="imgs\sign up.png" />
     <Content Include="imgs\writer.png" />
     <Content Include="userlogin.aspx" />
     <Content Include="userprofile.aspx" />
     <Content Include="usersignup.aspx" />
     <Content Include="viewbooks.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adminauthormanagement.aspx.cs">
@@ -1873,13 +1852,6 @@
     </Compile>
     <Compile Include="viewbooks.aspx.designer.cs">
       <DependentUpon>viewbooks.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
