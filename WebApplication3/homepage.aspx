@@ -32,6 +32,8 @@
                 box-shadow: 0 5px 25px rgb(0 0 0 / 0.10);
                 transform: scale(1.05);
             }
+
+            
     </style>
 
     <section>

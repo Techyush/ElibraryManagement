@@ -1,18 +1,19 @@
 ﻿
 
 .footerlinks {
-    color: #ffffff; /* Change color to blue or something */
+    color: darkslateblue; /* Change color to blue or something */
     text-decoration: none;
 }
 
     .footerlinks:hover {
-        color: #ffffff; /* Change color to blue or something */
-        text-shadow: 0 0 3px #58cced; /* Chnage glow color /
+        color: darkslateblue; /* Change color to blue or something */
+        text-shadow: 0 0 3px #58cced; /* Chnage glow color */
         text-underline-position: under;
     }
 
 #footer1 {
-    background: #1565c0; /* Change color to gray-100 | rgb(243 244 246) | Check posibility */
+    background: rgb(243 244 246); /* Change color to gray-100 | rgb(243 244 246) | Check posibility */
+    
 }
 
 .form-control, .form-select {
@@ -239,6 +240,12 @@ body {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 @keyframes gradient {

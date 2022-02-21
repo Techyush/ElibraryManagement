@@ -132,14 +132,12 @@
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
-=======
                 <br>
 
                 <br>
                 <br>
                 <br>
->>>>>>> 94027290195f84a3c4f355495489144b860b94c7
+
             </div>
             <div class="col-md-7">
                 <div class="card">
