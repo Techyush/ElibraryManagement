@@ -1748,6 +1748,7 @@
     <Content Include="homepage.aspx" />
     <Content Include="imgs\adminuser.png" />
     <Content Include="imgs\bk_logo.png" />
+    <Content Include="imgs\Favicon.ico" />
     <Content Include="imgs\logo.png" />
     <Content Include="imgs\books in the library.png" />
     <Content Include="imgs\books.png" />
@@ -1928,6 +1929,10 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
