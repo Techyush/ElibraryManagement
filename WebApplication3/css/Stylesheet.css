@@ -1,18 +1,18 @@
 ﻿
 
 .footerlinks {
-    color: #ffffff;
+    color: #ffffff; /* Change color to blue or something */
     text-decoration: none;
 }
 
     .footerlinks:hover {
-        color: #ffffff;
-        text-shadow: 0 0 3px #58cced;
+        color: #ffffff; /* Change color to blue or something */
+        text-shadow: 0 0 3px #58cced; /* Chnage glow color /
         text-underline-position: under;
     }
 
 #footer1 {
-    background: #1565c0;
+    background: #1565c0; /* Change color to gray-100 | rgb(243 244 246) | Check posibility */
 }
 
 .form-control, .form-select {
