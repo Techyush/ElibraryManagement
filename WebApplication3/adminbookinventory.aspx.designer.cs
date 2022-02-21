@@ -95,6 +95,7 @@ namespace WebApplication3
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
 
+
         /// <summary>
         /// DropDownList3 control.
         /// </summary>
@@ -112,6 +113,7 @@ namespace WebApplication3
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton2;
+
 
         /// <summary>
         /// RequiredFieldValidator3 control.
