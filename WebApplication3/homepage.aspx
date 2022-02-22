@@ -23,7 +23,6 @@
         .card {
             padding: 1.5em .5em .5em;
             border-radius: 2em;
-            box-shadow: 0 5px 10px rgba(0,0,0,.2);
             align-content: center;
             transition: all .2s ease-in-out;
         }
@@ -32,8 +31,6 @@
                 box-shadow: 0 5px 25px rgb(0 0 0 / 0.10);
                 transform: scale(1.05);
             }
-
-            
     </style>
 
     <section>
@@ -248,9 +245,6 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </section>
 </asp:Content>

@@ -184,7 +184,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <img width="100" src="imgs/books1.png" />
+                                    <img width="100" src="imgs/Issue.png" />
                                 </center>
                             </div>
                         </div>

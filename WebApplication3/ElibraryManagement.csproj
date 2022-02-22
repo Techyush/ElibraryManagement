@@ -92,6 +92,7 @@
     <Content Include="Database File\elibraryDB.mdf" />
     <Content Include="datatables\css\jquery.dataTables.min.css" />
     <Content Include="datatables\js\jquery.dataTables.min.js" />
+    <Content Include="imgs\animated bg.svg" />
     <Content Include="fontawesome\attribution.js" />
     <Content Include="fontawesome\css\all.css" />
     <Content Include="fontawesome\css\all.min.css" />
@@ -1925,6 +1926,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="book_inventory\" />
+    <Folder Include="dep icons\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

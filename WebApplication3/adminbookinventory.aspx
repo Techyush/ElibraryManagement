@@ -36,7 +36,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <img id="imgview" height="150" width="100" src="book_inventory/books1.png" />
+                                    <img id="imgview" width="100" src="imgs/books1.png" />
 
                                 </center>
                             </div>
