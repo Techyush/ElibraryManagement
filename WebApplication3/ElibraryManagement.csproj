@@ -1749,6 +1749,7 @@
     <Content Include="homepage.aspx" />
     <Content Include="imgs\adminuser.png" />
     <Content Include="imgs\bk_logo.png" />
+    <Content Include="imgs\book-ani.gif" />
     <Content Include="imgs\Favicon.ico" />
     <Content Include="imgs\logo.png" />
     <Content Include="imgs\books in the library.png" />

@@ -112,7 +112,10 @@
                     </div>
                     <div class="col-xs-5 col-sm-5 col-md-5 text-right">
                         <br>
-                        <p style="color: darkslateblue">&copy All right Reversed. <a class="footerlinks" href="homepage.aspx">E-Library Management</a></p>
+                        <p style="color: darkslateblue">&copy All right Reversed. <a class="footerlinks" href="homepage.aspx">E-Library Management</a>
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/imgs/book-ani.gif" Visible="True" Width="50" />
+                        </p>
+                        
                     </div>
                 </div>
             </div>
